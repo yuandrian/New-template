@@ -1,0 +1,266 @@
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        /* HEADER */
+        
+        .header {
+            width: 100%;
+            height: 1024px;
+            margin: 0 0 80px;
+            padding: 40px 150px;
+            background-image: url(./pics/bg_photo.png);
+            align-items: center;
+        }
+        
+        .logo {
+            height: 26px;
+            margin: 40px auto 0px 2px;
+            font-family: Raleway;
+            font-size: 34px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: -1.36px;
+            text-align: left;
+            color: #ffffff;
+        }
+        
+        .header_top {
+            display: flex;
+        }
+        
+        .mainmenu {
+            margin: 70px 60px 22px 30px;
+            font-family: Montserrat;
+            font-size: 14px;
+            justify-content: space-between;
+            margin-bottom: 952px;
+            vertical-align: bottom;
+        }
+        
+        .li {
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+            display: inline;
+            margin-left: 30px;
+        }
+        
+        .btn {
+            margin-top: 62px;
+            background-color: Transparent;
+            background-repeat: no-repeat;
+            border: none;
+            cursor: pointer;
+            overflow: hidden;
+            outline: none;
+            margin-left: 28px;
+        }
+        /* CARDS */
+        
+        .services-cards {
+            display: flex;
+            align-self: center;
+            justify-content: space-between;
+        }
+        
+        .card {
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        
+        .price {
+            color: grey;
+            font-size: 22px;
+        }
+        
+        .h1services {
+            font-family: Raleway;
+            font-size: 22px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #555555;
+            margin-top: 29px;
+        }
+        
+        .pservices {
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: black;
+            margin-top: 19px;
+        }
+        /* IDEAS */
+        
+        .waxomideas {
+            width: 100%;
+            height: 700px;
+            margin: 80px 0 0;
+            padding: 83px 344px 0 346px;
+            background-color: #fbfaf8;
+            vertical-align: bottom;
+        }
+        
+        .ideastexth1 {
+            font-family: Raleway;
+            font-size: 30px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #555555;
+        }
+        
+        .ideastext {
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.75;
+            letter-spacing: normal;
+            text-align: center;
+            color: #8c8c8c;
+            max-width: 100%;
+        }
+        
+        .ideaspics {
+            vertical-align: top;
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .ideaspic1 {
+            top: 50px;
+            left: 55px;
+            z-index: 1;
+        }
+        
+        .ideaspic2 {
+            position: absolute;
+            top: 25px;
+            z-index: 2;
+        }
+        
+        .ideaspic3 {
+            left: -295px;
+            z-index: 1;
+        }
+        /* IDEAS FOOT */
+        
+        .ideasfoot {
+            display: flex;
+            width: 100%;
+            height: 150px;
+            margin: 0px 0 81px;
+            padding: 48px 374px 49px 200px;
+            background-image: linear-gradient(to top, #211b19, #4e3427);
+        }
+        
+        .ideasfoot-texth1 {
+            font-family: Raleway;
+            font-size: 28px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #c7b299;
+        }
+        
+        .ideasfoot-textmain {
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.75;
+            letter-spacing: normal;
+            text-align: left;
+            color: white;
+        }
+        
+        .ideasfoot-button {
+            width: 170px;
+            height: 50px;
+            margin: 2px 0 1px 470px;
+            padding: 19px;
+            border-radius: 3px;
+            box-shadow: inset 0px -3px 0 0 #736357;
+            background-color: #998675;
+        }
+        
+        .buttontext {
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.64;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+        }
+        
+        .ideasfoot-text {
+            text-align: left;
+        }
+        /* PROJECTS */
+        
+        .projects {
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .projectsh1 {
+            font-family: Raleway;
+            font-size: 30px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #555555;
+        }
+        
+        .projectstext {
+            max-width: 757px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.75;
+            letter-spacing: normal;
+            justify-content: center;
+            color: #8c8c8c;
+        }
+        
+        .projects-buttons {
+            display: flex;
+        }
