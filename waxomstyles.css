@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    height: 1024px;
+    margin: 0 0 80px;
+    padding: 40px 150px;
+    background-image: url(./pics/bg_photo.png);
+    align-items: center;
+}
+
+.logo {
+    height: 26px;
+    margin: 40px auto 0px 2px;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -1.36px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.header_top {
+    display: flex;
+}
+
+.mainmenu {
+    margin: 70px 60px 22px 30px;
+    font-family: Montserrat;
+    font-size: 14px;
+    justify-content: space-between;
+    margin-bottom: 952px;
+    vertical-align: bottom;
+}
+
+.li {
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    display: inline;
+    margin-left: 30px;
+}
+
+.btn {
+    margin-top: 62px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin-left: 28px;
+}
+
+
+/* CARDS */
+
+.services-cards {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.h1services {
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #555555;
+    margin-top: 29px;
+}
+
+.pservices {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+    margin-top: 19px;
+}
+
+.scalepic {
+    transition: 0.2s;
+}
+
+.scalepic:hover {
+    transform: scale(1.1);
+}
+
+
+/* IDEAS */
+
+.waxomideas {
+    width: 100%;
+    height: 700px;
+    margin: 80px 0 0;
+    padding: 83px 344px 0 346px;
+    background-color: #fbfaf8;
+    vertical-align: bottom;
+}
+
+.ideastexth1 {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #555555;
+}
+
+.ideastext {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #8c8c8c;
+    max-width: 100%;
+}
+
+.ideaspics {
+    vertical-align: top;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.ideaspic1 {
+    top: 50px;
+    left: 55px;
+    z-index: 1;
+}
+
+.ideaspic2 {
+    position: absolute;
+    top: 25px;
+    z-index: 2;
+}
+
+.ideaspic3 {
+    left: -295px;
+    z-index: 1;
+}
+
+
+/* IDEAS FOOT */
+
+.ideasfoot {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin: 0px 0 81px;
+    padding: 48px 374px 49px 200px;
+    background-image: linear-gradient(to top, #211b19, #4e3427);
+}
+
+.ideasfoot-texth1 {
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #c7b299;
+}
+
+.ideasfoot-textmain {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.ideasfoot-button {
+    width: 170px;
+    height: 50px;
+    margin: 2px 0 1px 470px;
+    padding: 19px;
+    border-radius: 3px;
+    box-shadow: inset 0px -3px 0 0 #736357;
+    background-color: #998675;
+}
+
+.buttontext {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.ideasfoot-text {
+    text-align: left;
+}
+
+.radius {
+    border-radius: 0;
+    transition: 0.5s;
+}
+
+.radius:hover {
+    transform: rotate(360deg);
+}
+
+
+/* PROJECTS */
+
+.projects {
+    width: 100%;
+    margin-top: 81px;
+}
+
+.projectsh1 {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #555555;
+}
+
+.projectstext {
+    margin-top: 24px;
+    max-width: 757px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #8c8c8c;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.projects-buttons {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 757px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttoncss {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    padding: 10px 19px 8px 18px;
+    border-radius: 3px;
+    border: solid 1px #ebebeb;
+    background-color: #ffffff;
+}
+
+.buttoncss:hover {
+    font-family: Montserrat;
+    color: #ffffff;
+    margin-left: 10px;
+    padding: 10px 19px 8px 18px;
+    border-radius: 3px;
+    border: solid 1px #ebebeb;
+    background-color: #998675;
+}
+
+.cards {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 757px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    justify-content: space-between;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 2px 16px;
+}
